@@ -1,0 +1,151 @@
+p {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Lucida Sans Regular";
+}
+
+#header {
+  width: 100%;
+  align-items: left;
+  background-color: #ffffff;
+  height: 40px;
+}
+
+#btn {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+  border: #ffffff;
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  margin-bottom: 5%;
+  font-family: "Lucida Sans Regular";
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+}
+
+body {
+  margin: 0;
+  background-position: center center;
+  background-image: url("images/background.jpg");
+  height: 100vh;
+}
+
+#containerA {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  width: 200px;
+  border-radius: 5%;
+  margin-left: 20%;
+  background-color: #ffffff;
+}
+#btnSearch {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  align-items: end;
+  border: #106c1f;
+  width: 90%;
+  border-radius: 5%;
+  background-color: rgb(96, 169, 128);
+  align-items: stretch;
+}
+
+#containerB {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 200px;
+  border-radius: 5%;
+  margin-right: 20%;
+  /* margin-top: 60px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  /* border-radius: 5%; */
+  background-color: #ffffff;
+}
+
+#content-container {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: blue; */
+  width: 70%;
+}
+
+#container {
+  height: calc(100vh - 40px);
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#explore {
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+#logo {
+  width: 100x;
+  height: 100px;
+  border-bottom: 2px solid rgb(96, 169, 128);
+  padding-bottom: 15%;
+  margin-bottom: 15%;
+}
+
+#footer {
+  text-align: end;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+  font-family: "Lucida Sans Regular";
+  font-size: 10px;
+  /* margin-top: 90%; */
+}
+
+#departure {
+  background-color:rgb(208, 255, 239);
+}
+
+#arrival {
+  background-color: rgb(208, 255, 239);
+}
+
+#date {
+  background-color: rgb(208, 255, 239);
+}
+
+
+#cart {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  border: #ffffff;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  align-items: right;
+}
+#booking {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  border: #ffffff;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  align-items: right;
+}
