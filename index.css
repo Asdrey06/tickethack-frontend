@@ -11,6 +11,10 @@ p {
   height: 40px;
 }
 
+.tripsContainer p {
+  color: black;
+}
+
 #btn {
   color: green;
   font-weight: bold;
@@ -71,6 +75,7 @@ body {
   margin-bottom: 50px;
   /* border-radius: 5%; */
   background-color: #ffffff;
+  overflow: auto;
 }
 
 #content-container {
@@ -115,7 +120,7 @@ body {
 }
 
 #departure {
-  background-color:rgb(208, 255, 239);
+  background-color: rgb(208, 255, 239);
 }
 
 #arrival {
@@ -125,7 +130,6 @@ body {
 #date {
   background-color: rgb(208, 255, 239);
 }
-
 
 #cart {
   color: rgb(0, 0, 0);
@@ -148,4 +152,25 @@ body {
   gap: 15px;
   justify-content: flex-end;
   align-items: right;
+}
+.tripsContainer {
+  background-color: aqua;
+  display: flex;
+}
+
+.bookTrips {
+  float: right;
+  padding-right: 10%;
+}
+
+.departure {
+  padding-right: 10%;
+}
+
+.arrival {
+  padding-right: 10%;
+}
+
+.price {
+  padding-right: 10%;
 }
